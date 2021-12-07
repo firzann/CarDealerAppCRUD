@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <EditText
+            android:id="@+id/editMerk"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/poppinsbold"
+            android:ems="10"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Merk Mobil"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTipe"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Tipe Mobil"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editWarna"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Warna Mobil"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/editKapasitasMesin"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_width="match_parent"
+            android:ems="10"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Kondisi Mobil"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/editKondisi"
+            android:ems="10"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Kondisi Mobil"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/editHarga"
+            android:ems="10"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Harga Mobil"
+            android:textSize="18sp" />
+
+
+</LinearLayout>
